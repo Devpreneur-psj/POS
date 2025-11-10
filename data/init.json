@@ -1,0 +1,118 @@
+{
+  "store": {
+    "name": "소확행",
+    "tables": [
+      {"name": "1번", "capacity": 2},
+      {"name": "2번", "capacity": 2},
+      {"name": "3번", "capacity": 4},
+      {"name": "4번", "capacity": 4},
+      {"name": "5번", "capacity": 6},
+      {"name": "6번", "capacity": 6}
+    ]
+  },
+  "menu": [
+    {
+      "name": "엑스밤",
+      "category": "COCKTAIL",
+      "base_price": 9000,
+      "description": "엑스레이티드와 토닉워터가 어우러진 화사한 칵테일"
+    },
+    {
+      "name": "말리부오렌지",
+      "category": "COCKTAIL",
+      "base_price": 8000,
+      "description": "말리부와 오렌지주스의 상큼한 조합"
+    },
+    {
+      "name": "잭콕",
+      "category": "COCKTAIL",
+      "base_price": 8500,
+      "description": "잭다니엘과 콜라의 클래식한 하이볼"
+    },
+    {
+      "name": "깔루아밀크",
+      "category": "COCKTAIL",
+      "base_price": 7500,
+      "description": "깔루아와 우유가 만들어내는 달콤함"
+    },
+    {
+      "name": "깔루아",
+      "category": "LIQUOR",
+      "base_price": 42000,
+      "description": "부드러운 커피 리큐어"
+    },
+    {
+      "name": "엑스레이티드",
+      "category": "LIQUOR",
+      "base_price": 48000,
+      "description": "화사한 트로피컬 리큐어"
+    },
+    {
+      "name": "말리부",
+      "category": "LIQUOR",
+      "base_price": 45000,
+      "description": "코코넛 향이 매력적인 리큐어"
+    },
+    {
+      "name": "잭다니엘",
+      "category": "LIQUOR",
+      "base_price": 52000,
+      "description": "테네시 위스키의 정석"
+    },
+    {
+      "name": "토닉워터",
+      "category": "BEVERAGE",
+      "base_price": 3000
+    },
+    {
+      "name": "오렌지주스",
+      "category": "BEVERAGE",
+      "base_price": 3500
+    },
+    {
+      "name": "콜라",
+      "category": "BEVERAGE",
+      "base_price": 2500
+    },
+    {
+      "name": "사이다",
+      "category": "BEVERAGE",
+      "base_price": 2500
+    },
+    {
+      "name": "우유",
+      "category": "BEVERAGE",
+      "base_price": 2000
+    }
+  ],
+  "inventory": [
+    {"name": "엑스레이티드", "unit": "ml", "quantity": 4000, "threshold": 500},
+    {"name": "말리부", "unit": "ml", "quantity": 3500, "threshold": 500},
+    {"name": "잭다니엘", "unit": "ml", "quantity": 5000, "threshold": 600},
+    {"name": "깔루아", "unit": "ml", "quantity": 3000, "threshold": 400},
+    {"name": "토닉워터", "unit": "ml", "quantity": 6000, "threshold": 800},
+    {"name": "오렌지주스", "unit": "ml", "quantity": 5500, "threshold": 800},
+    {"name": "콜라", "unit": "ml", "quantity": 6000, "threshold": 800},
+    {"name": "사이다", "unit": "ml", "quantity": 4000, "threshold": 600},
+    {"name": "우유", "unit": "ml", "quantity": 5000, "threshold": 700},
+    {"name": "라임", "unit": "ea", "quantity": 50, "threshold": 10}
+  ],
+  "employees": [
+    {
+      "name": "박사장",
+      "role": "OWNER",
+      "hourly_wage": 0
+    },
+    {
+      "name": "김알바",
+      "role": "STAFF",
+      "hourly_wage": 12000
+    },
+    {
+      "name": "이알바",
+      "role": "STAFF",
+      "hourly_wage": 12000
+    }
+  ]
+}
+
