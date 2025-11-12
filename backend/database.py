@@ -8,7 +8,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker, Session
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR.parent / "data"
+# Render 환경에서는 backend/data를 사용, 로컬에서는 프로젝트 루트의 data 사용
+DATA_DIR = (BASE_DIR.parent / "data") if (BASE_DIR.parent / "data").exists() else (BASE_DIR / "data")
 DATA_DIR.mkdir(exist_ok=True)
 
 DATABASE_URL = f"sqlite:///{DATA_DIR / 'sales.db'}"
